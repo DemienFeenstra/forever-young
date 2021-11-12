@@ -1,6 +1,6 @@
 from RobotArm import RobotArm
 
-robotArm = RobotArm('exercise 1')
+robotArm = RobotArm('exercise 2')
 
 # Jouw python instructies zet je vanaf hier:
 
