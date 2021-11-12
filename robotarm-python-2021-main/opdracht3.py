@@ -1,10 +1,14 @@
 from RobotArm import RobotArm
 
-robotArm = RobotArm('exercise 1')
+robotArm = RobotArm('exercise 3')
 
 # Jouw python instructies zet je vanaf hier:
 
-
+for i in range(4):
+    robotArm.grab()
+    robotArm.moveRight()
+    robotArm.drop()
+    robotArm.moveLeft()
 
 
 
